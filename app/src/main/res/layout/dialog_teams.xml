@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editFlowLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/flTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tv_cancel"
+            style="@style/TextFontStyle"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/cancel"
+            android:textColor="@drawable/selector_red_color"
+            app:fontId="7" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tv_title"
+            style="@style/TextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            tools:text="@string/add_logo" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flTop"
+        android:layout_margin="@dimen/margin_smallest"
+        android:background="@drawable/searchview_border"
+        android:orientation="horizontal"
+
+
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:src="@drawable/search_gray" />
+
+        <EditText
+            android:id="@+id/et_search_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:imeOptions="actionDone"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:hint="@string/hint_search"
+            android:inputType="text"
+            android:textCursorDrawable="@drawable/cursor_search"
+            android:textSize="@dimen/font_4" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rv_list_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_view"
+        android:background="@color/transparent"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_small"
+        android:text="@string/no_search_result"
+        android:layout_centerHorizontal="true"
+        style="@style/TextFontStyle"
+        android:visibility="invisible"/>
+
+    <com.llc111minutes.gameday.ui.widget.ClearFocusRecyclerView
+        android:id="@+id/rv_list_team"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_view"
+        android:background="@color/transparent"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_small"/>
+
+</RelativeLayout>

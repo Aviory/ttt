@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_editing_tips"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_background"
+    tools:context=".ui.activity.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/flTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            style="@style/TextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/editing_tips"
+            android:textAllCaps="false" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvSkip_tips"
+            style="@style/TextFontStyle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/cancel"
+            android:textColor="@drawable/selector_red_color"
+            app:fontId="8" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+            android:id="@+id/tvEnter_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/label_ok"
+            android:visibility="invisible"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_enter"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llIndication_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEnter_tips"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/margin_small_circle"
+                android:layout_height="@dimen/margin_small_circle"
+                android:layout_margin="@dimen/padding_big"
+                android:background="@drawable/circle_white" />
+
+            <View
+                android:layout_width="@dimen/margin_small_circle"
+                android:layout_height="@dimen/margin_small_circle"
+                android:layout_margin="@dimen/padding_big"
+                android:background="@drawable/circle_white" />
+
+            <View
+                android:layout_width="@dimen/margin_small_circle"
+                android:layout_height="@dimen/margin_small_circle"
+                android:layout_margin="@dimen/padding_big"
+                android:background="@drawable/circle_white" />
+
+            <View
+                android:layout_width="@dimen/margin_small_circle"
+                android:layout_height="@dimen/margin_small_circle"
+                android:layout_margin="@dimen/padding_big"
+                android:background="@drawable/circle_white" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/flTop"
+       />
+</RelativeLayout>

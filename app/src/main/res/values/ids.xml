@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="adjustView" type="id" />
+    <item name="customHorizontalScrollView" type="id" />
+    <item name="layout" type="id" />
+    <item name="filter" type="id" />
+    <item name="view_add_element" type="id"/>
+    <item name="view_add_title_logo" type="id"/>
+    <item name="change_layout_view" type="id"/>
+    <item name="filterSeekBar" type="id" />
+    <item name="listChoiceTemplates" type="id" />
+    <item name="background_choice" type="id" />
+    <item name="color_choose" type="id" />
+</resources>

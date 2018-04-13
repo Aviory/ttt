@@ -1,0 +1,388 @@
+<resources>
+    <string name="app_name">GameDay</string>
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="skip">Skip</string>
+    <string name="create">Create professional sport cards on different occasions</string>
+    <string name="share">Share the card with your friends or fans via social networks</string>
+    <string name="onbarding">Let everybody know about the upcoming football event</string>
+    <string name="enter">ENTER</string>
+    <string name="gallery">OPEN\nGALLERY</string>
+    <string name="take_photo">TAKE A\nPHOTO</string>
+    <string name="cancel">Cancel</string>
+    <string name="cards">CARDS</string>
+    <string name="next">Next</string>
+    <string name="match">MATCH OF THE DAY</string>
+    <string name="effects">EFFECTS</string>
+    <string name="edit">EDIT</string>
+
+    <string name="error_connection">No internet connection</string>
+    <string name="back">Back</string>
+    <string name="try_again">Try again</string>
+    <string name="reset">Reset</string>
+
+    <string name="nav_notify">Notification</string>
+    <string name="nav_share">Share your feedback</string>
+    <string name="nav_rate">Rate #gameday</string>
+    <string name="nav_water">Hide watermark</string>
+    <string name="nav_restore">RESTORE PURCHASE</string>
+    <string name="nav_purchase">PURCHASE</string>
+
+    <string name="slogan">Arbeit macht frei</string>
+
+    <string name="first_splash_sentences">Create fancy posts without any help of designer and at no cost</string>
+    <string name="second_splash_sentences">Get proud of social media content you present to the world</string>
+    <string name="third_splash_sentences">Become more engaging with your followers</string>
+    <string name="fourth_splash_sentences">Increase your social awareness</string>
+    <string name="layout">LAYOUT</string>
+    <string name="filter">FILTER</string>
+    <string name="adjust">ADJUST</string>
+    <string name="font">Font</string>
+    <string name="color">Color</string>
+    <string name="drop_shadow">Drop shadow</string>
+    <string name="gameday">GameDay</string>
+    <string name="gameday_hashtag">#Gameday</string>
+    <string name="_new">New</string>
+    <string name="gamedayapp_hashtag">#Gamedayapp</string>
+    <string name="image_template">Image Template</string>
+    <string name="full_image">Full Image</string>
+    <string name="clear_all">Clear all</string>
+    <string name="add_elements">Add elements</string>
+    <string name="contrast">Contrast</string>
+    <string name="brightness">Brightness</string>
+    <string name="sharpness">Sharpness</string>
+
+    <string name="saturation">Saturation</string>
+    <string name="highlight_shadow">Shadow</string>
+    <string name="white_balance">Temperature</string>
+    <string name="gaussian_blur">Gaussian blur</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_page_layout">LAYOUT</string>
+    <string name="name_page_share">SHARE</string>
+    <string name="instagram">INSTAGRAM</string>
+    <string name="save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="more">MORE</string>
+    <string name="add_logo">ADD LOGO</string>
+    <string name="add_place">ADD PLACE</string>
+    <string name="add_headline">ADD HEADLINE</string>
+    <string name="title_select_app">Select a program to share:</string>
+    <string name="dialog_alert_discard_message">This will discard all changes made in current card and get you to start screen</string>
+    <string name="dialog_alert_discard_title">Cancel changes?</string>
+    <string name="dialog_alert_delete_all_element">Do you want to delete all elements?</string>
+    <string name="dialog_alert_error_connection">Please check your WIFI or cellular data network.</string>
+    <string name="dialog_alert_purchase">Do you want to hide watermark for $3.99 ?</string>
+
+    <!--Add container-->
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="place">Place</string>
+    <string name="text">Text</string>
+
+    <string name="team">Team</string>
+    <string name="vs">Vs</string>
+    <string name="editing_tips">Editing Tips</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="edit_text">TEXT EDIT</string>
+    <string name="headline">Headline</string>
+    <string name="logo">Logo</string>
+    <string name="background">Background</string>
+
+    <!--Add elements-->
+    <string name="team_logo">team logo</string>
+    <string name="text_char">text</string>
+    <string name="date_char">date</string>
+    <string name="time_char">time</string>
+    <string name="place_char">place</string>
+    <string name="text_one_logo">1 logo</string>
+    <string name="text_two_logos">2 logos</string>
+    <string name="text_two_logos_vs">2 logos + vs</string>
+    <string name="hint_search">Type in team</string>
+    <string name="text_term" formatted="false"><![CDATA[
+
+<html>
+<body lang="ru-RU" dir="ltr">
+<p align="center" style="margin-bottom: 0cm; font-variant: normal; font-style: normal;   text-decoration: none"><a name="docs-internal-guid-16e1bf0a-42eb-5ab6-26d5-3e96045da9a8"></a>
+<font color="#000000"><font size="5" style="font-size: 18pt"><b><span style="background: transparent">Terms
+and Conditions</span></b></font></font></p>
+
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+<font color="#000000"><font size="3" style="font-size: 12pt"><span style="background: transparent">111
+minutes LLC a corporation organized and existing under the laws of
+Ukraine, with its registered address at Dnipro city, Darnitskaya str
+11, apt. 150 (hereafter referred to as the \"Provider\") provides
+the end users the access to its application Gameday (hereafter
+referred to as \"Service\"). The Service may also include access to
+products and services of third parties. </span></font></font>
+</p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">Registration
+with the Service creates a contract between the end user (hereafter
+referred to as the \"User\" or \"you\") and the Provider.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">The
+User confirms that he has read and understood these conditions of
+contract and that he accepts them fully and without reservation.
+These \"Terms &amp; Conditions\" (hereafter referred to as the
+\"Terms\") have exclusive validity unless the Provider has
+expressly declared its agreement to different provisions.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">You
+may print or save a copy of these Terms for Your reference but the
+most up to date version of these Terms will always be made available
+here whilst this Site is operational.</span></font></font></font></p>
+
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><b><span style="background: transparent">1.
+Service Description</span></b></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">1.1.
+YOU REPRESENT AND WARRANT THAT YOU ARE OF LEGAL AGE IN THE
+JURISDICTION IN WHICH YOU RESIDE.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">1.2.
+If any upgrade in or to the Service requires changes in your
+equipment or software, you must effect these changes at your own
+expense. Unless explicitly stated otherwise, any new or additional
+features that change or enhance the current Service, including new
+products, shall be subject to the terms and conditions of this
+Agreement. </span></font></font></font>
+</p>
+
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><b><span style="background: transparent">2.
+Registration and Registration Data</span></b></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">2.1.
+You agree that you are responsible for keeping your screen name and
+password for your account secret. You acknowledge that we are not
+responsible for third party access to your account that results from
+sharing your login or other account details or personal information
+by you or the theft or misappropriation of your screen name and
+password. We reserve the right to suspend your access to the Services
+or terminate your account if we suspect an unauthorised person is
+attempting to access it/ intellectual property infringement/
+misleading information is taken place, or any other ground when
+Provider has &nbsp;grounds to believe that &nbsp;the End user’s
+actions/ behavior may harm the reputation/IP/ of Provider &nbsp;of
+third persons. &nbsp;&nbsp;</span></font></font></font></p>
+
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">2.2.
+If you use a password that the Provider considers to be insecure, the
+Provider shall be entitled to require the password to be changed
+and/or terminate your authorized access to password protected areas.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">2.3.
+In exchange for your use of the Service (in addition to the payment
+of applicable fees) you agree to provide true, accurate and complete
+information about yourself as prompted by the registration form
+(&quot;Registration Data&quot;). The Provider has any grounds to
+suspect that the Registration Data is inaccurate or incomplete, the
+Provider has the right to suspend or terminate your account and
+refuse any and all current or future use of the Service.</span></font></font></font></p>
+
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><b><span style="background: transparent">3.
+Contracts for Products and Services of Third Parties</span></b></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">3.1.
+The Service may also include access to products and services of
+independent third parties either directly or via links to sites
+operated by such third parties.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">3.2.
+THE PROVIDER SHALL NOT BE A PARTY TO, OR IN ANY WAY RESPONSIBLE FOR,
+ANY TRANSACTION CONCERNING PRODUCTS OR SERVICES MADE AVAILABLE FROM
+SUCH THIRD PARTIES OR FOR ANY CONTENT OR INFORMATION PRESENTED IN
+CONNECTION WITH ANY PRODUCTS OR SERVICES OF THIRD PARTIES.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">3.3.
+End user agrees that it will not use the Service for misleading
+purposes, will not announce the materials which do not correspond to
+reality. </span></font></font></font>
+</p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">3.4.
+End user shall not use the Service to market its own products, or for
+other own business purposes. </span></font></font></font>
+</p>
+
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><b><span style="background: transparent">4.
+Interruptions or Discontinuation of Service</span></b></font></font></font></p>
+
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">4.1.
+The Provider may suspend the Service for repair, maintenance, and/or
+upgrade work. In such event, the Provider shall make reasonable
+efforts to keep the said interruption as brief as is reasonably
+possible with as little inconvenience to you as is reasonably
+possible.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">4.2.
+The Provider reserves the right to modify or discontinue, temporarily
+or permanently, individual services provided by it or third parties
+via the Services, or the Services themselves.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">4.3.
+The Provider aims to make the system as widely accessible as
+possible. Because of the technical aspects of Internet and mobile
+phone connections, over which the Service has no influence,
+disruptions may however arise from time to time in the data transfer.
+The Provider cannot therefore give any guarantee on the accessibility
+of the system or for the accessibility of individual participants,
+however providing best possible performance is one of the main goals
+of the Provider.</span></font></font></font></p>
+
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><b><span style="background: transparent">5.
+Limitation of liabilities and disclaimer of warranties</span></b></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">5.1.
+Except in jurisdictions where such provisions are restricted, you
+agree that the Provider’s entire liability to you or any third
+person, and your or any third person\'s exclusive remedy, in law, in
+equity, or otherwise, with respect to the service(s) provided under
+this Agreement and/or for any breach of this Agreement is solely
+limited to the amount you paid for such service(s) during the term of
+this Agreement.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">5.2.
+Except in jurisdictions where such provisions are restricted, the
+Provider, its licensors and contractors (including any third parties
+providing all or part of the services) shall not be liable for any
+indirect, incidental, special or consequential damages. Even if the
+Provider has been advised of the possibility of such damages, to the
+extent that a country does not permit the exclusion or limitation of
+liability as set forth herein, the Provider liability is limited to
+the extent permitted by law in such Country.</span></font></font></font></p>
+
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><b><span style="background: transparent">6.
+Intellectual Property Rights</span></b></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">6.1.
+Except as otherwise set forth herein, all right, title and interest
+in and to any intellectual property, proprietary rights or other
+rights related to intangible property concerning &nbsp;the used
+application (Service) (\"the Provider’s Intellectual Property
+Rights&quot;) are owned by the Provider or its licensors, and you
+agree to make no claim of interest in or ownership of any such the
+Provider Intellectual Property Rights. All other product names and
+logos/brands provided or available herein are the trademarks of their
+respective owners. &nbsp;&nbsp;</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><b><span style="background: transparent">6.2.
+If you are a copyright owner or agent thereof and believe that any of
+our content infringes upon your copyright, please contact us on the
+following email address: alex@lawrange.net </span></b></font></font></font>
+</p>
+
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">7.
+Indemnification</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">7.1.
+You agree to indemnify and hold the Provider, its parent,
+subsidiaries, affiliates, officers, agents, directors, contractors,
+licensors and other partners and employees, harmless from any loss,
+liability, claim, or demand, including reasonable legal fees, made by
+any third party due to or arising out of or in connection with (a)
+your use of the Service, and (b) the breach by you of your
+representations and </span></font></font></font>
+</p>
+<p align="justify" style="margin-bottom: 0cm; font-weight: normal; line-height: 129%">
+<span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="font-style: normal"><span style="background: transparent">7.2.
+&nbsp;We are always interested in resolving disputes amicably and
+efficiently. So, before you commence an court proceedings, we suggest
+that you contact us to explain your complaint, as we may be able to
+resolve it without the need for arbitration. </span></span></font></font></span></font></span><span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="font-style: normal"><b><span style="background: transparent">You
+may contact us at alex@lawrange.net </span></b></span></font></font></span></font></span>
+</p>
+
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">8.
+Miscellaneous</span></font></font></font></p>
+
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">8.1
+The Provider shall serve notices related to this contract by posting
+them on the Provider web site or by sending them to the e-mail
+address you have given to the Provider, or as a text message to your
+mobile phone number.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">8.2.
+YOU ACKNOWLEDGE AND AGREE THAT THIS AGREEMENT IS SUBJECT TO CHANGE BY
+THE PROVIDER AT ANY TIME, WHICH CHANGES SHALL BE EFFECTIVE UPON
+POSTING SUCH CHANGES. ANY USE OF THE SERVICE AFTER SUCH POSTING SHALL
+CONSTITUTE ACCEPTANCE OF SUCH CHANGES BY YOU.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">8.3
+If a Court decides that any provision of this Contract cannot be
+enforced, that particular part of the Contract will not apply but the
+rest will. However, the parties will negotiate in good faith to
+restate such provision to reflect the original intentions of the
+parties as nearly as is possible in accordance with applicable law,
+and the remaining provisions of this Agreement. The invalidity,
+illegality or unenforceability of any provisions or part of any
+provision of this Agreement shall not affect or impact the
+continuation in force of the remainder of this Agreement, or
+provisions as the case may be.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">8.4
+The section headings appearing in this Agreement are inserted only as
+a matter of convenience and in no way define, limit, construe or
+describe the scope or extent of such section or in any way affect
+such section.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">8.5.
+Where the context so admits, or requires, words denoting the singular
+include the plural and vice versa, words denoting any gender (or the
+neuter) include both genders and the neuter. Section headings are
+purely for ease of reference and do not form part of or affect the
+interpretation of this Agreement. References to \"include\" and
+\"including\" shall be deemed to mean respectively \"include(s)
+without limitation\" and \"including without limitation\".
+References to each party to this Agreement include references to its
+successors and permitted assigns.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">8.6
+These Terms are only available in the English language.</span></font></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal;   text-decoration: none">
+<font color="#000000"><font face="Times New Roman"><font size="3" style="font-size: 12pt"><span style="background: transparent">8.7.
+The Terms and Conditions are personal to you. You may not assign your
+rights or obligations to anyone.</span></font></font></font></p>
+
+</body>
+</html>]]>
+    </string>
+    <string name="recently_used">Recently used</string>
+    <string name="search_result">Search result</string>
+    <string name="dialog_editing_tips_one">Tap on any element or \n background to edit</string>
+    <string name="dialog_editing_tips_two">Rotate and resize</string>
+    <string name="Close">Close</string>
+    <string name="Delete">Delete</string>
+    <string name="Fill_element">Fill element</string>
+    <string name="rotate_and_resize">Rotate and resize</string>
+    <string name="drag_end_drop_el">Drag and drop elements to \n change their position</string>
+    <string name="Tap_on_selected">Tap on selected element \n to change text</string>
+    <string name="label_ok">Ok</string>
+    <string name="no_search_result">"Sorry, no logo was found"</string>
+
+
+</resources>

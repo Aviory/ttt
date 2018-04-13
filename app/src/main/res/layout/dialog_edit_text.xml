@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/flTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tv_cancel"
+            style="@style/TextFontStyle"
+            android:background="@color/transparent"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/cancel"
+            android:textColor="@drawable/selector_red_color"
+            app:fontId="7" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tv_save"
+            style="@style/TextFontStyle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/save"
+            android:textColor="@drawable/selector_red_color"
+            app:fontId="7" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvMode"
+            style="@style/TextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/edit_text" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_edit_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flTop"
+        android:layout_margin="@dimen/margin_bigger"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+
+        />
+</RelativeLayout>

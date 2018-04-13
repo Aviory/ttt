@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvBack"
+            style="@style/TextFontStyle"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/back"
+            app:fontId="8" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvNext"
+            style="@style/TextFontStyle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/next"
+            app:fontId="8" />
+
+    </RelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/vWheel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/angle_pointer" />
+
+        <View
+            android:id="@+id/vTouch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:layout_heightPercent="35%" />
+
+        <android.support.v4.widget.Space
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            app:layout_heightPercent="20%" />
+
+        <ImageView
+            android:id="@+id/vWheel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/space"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/rotatewheel" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_alignBottom="@+id/cropImageView"
+            android:layout_alignTop="@+id/cropImageView"
+            android:background="@color/color_crop_background" />
+
+        <!-- Image Cropper fill the remaining available height -->
+        <com.yalantis.ucrop.view.UCropView
+            android:id="@+id/cropImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_crop_background"
+            android:elevation="2dp"
+            app:layout_heightPercent="70%" />
+
+        <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+            android:id="@+id/tvReset"
+            style="@style/TextFontStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_big"
+            android:layout_marginTop="12dp"
+            android:text="@string/reset"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_5"
+            android:textStyle="normal"
+            android:visibility="gone"
+            app:fontId="8"
+            tools:visibility="visible" />
+
+        <View
+            android:id="@+id/vFirstTouch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/cropImageView"
+            android:layout_alignTop="@+id/cropImageView" />
+
+    </android.support.percent.PercentRelativeLayout>
+</LinearLayout>

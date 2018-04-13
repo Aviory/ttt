@@ -1,0 +1,56 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_small">2dp</dimen>
+    <dimen name="padding_medium">4dp</dimen>
+    <dimen name="padding_large">6dp</dimen>
+    <dimen name="padding_big">8dp</dimen>
+    <dimen name="padding_bigger">10dp</dimen>
+    <dimen name="margin_smallest">12dp</dimen>
+    <dimen name="margin_small">16dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="margin_biggest">64dp</dimen>
+
+    <!-- Default fonts -->
+    <dimen name="font_3">12sp</dimen>
+    <dimen name="font_4">14sp</dimen>
+    <dimen name="font_5">16sp</dimen>
+    <dimen name="font_6">18sp</dimen>
+    <dimen name="font_7">20sp</dimen>
+    <dimen name="font_8">22sp</dimen>
+    <dimen name="font_9">24sp</dimen>
+    <dimen name="font_10">26sp</dimen>
+    <dimen name="font_11">28sp</dimen>
+
+    <dimen name="action_button_size">32dp</dimen>
+    <dimen name="action_button_half_minus">-16dp</dimen>
+    <dimen name="filter_drawable_height">30dp</dimen>
+
+    <!--Thumb size-->
+    <dimen name="thumb_size">28dp</dimen>
+
+    <!--Minimum Imageview size in Filter and Layout-->
+    <dimen name="min_size_photo">24dp</dimen>
+
+    <dimen name="stroke_size">1dp</dimen>
+
+    <!--Sticker-->
+    <dimen name="sticker_stroke_size">3dp</dimen>
+    <dimen name="dip_width">2dp</dimen>
+    <dimen name="circle_radius">16dp</dimen>
+
+    <dimen name="minWidthText">40dp</dimen>
+    <dimen name="minHeightText">20dp</dimen>
+
+    <dimen name="marginTextHorisontal">8dp</dimen>
+    <dimen name="padding_screen">16dp</dimen>
+</resources>

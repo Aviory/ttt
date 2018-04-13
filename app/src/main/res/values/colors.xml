@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/color_black</color>
+    <color name="colorPrimaryDark">@color/color_black</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#717171</color>
+    <color name="black">#9b020000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#51ffffff</color>
+    <color name="color_black">#292929</color>
+    <color name="color_crop_background">@color/colorPrimaryDark</color>
+    <color name="red">#cc0725</color>
+    <color name="brand_background">#eb202020</color>
+    <color name="stroke_color">@android:color/white</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

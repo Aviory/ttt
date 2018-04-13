@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingTop="@dimen/padding_header"
+                android:src="@drawable/logo_gameday" />
+
+            <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+                android:id="@+id/tvSkip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/padding_right"
+                android:paddingTop="@dimen/padding_header"
+                android:paddingBottom="0dp"
+                android:clickable="true"
+                android:focusable="false"
+                android:text="@string/skip"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_5"
+                android:textStyle="normal"
+                app:fontId="7"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llIndication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_margin="@dimen/padding_big"
+                android:layout_width="@dimen/margin_small_circle"
+                android:layout_height="@dimen/margin_small_circle"
+                android:background="@drawable/circle_white" />
+
+            <View
+                android:layout_margin="@dimen/padding_big"
+                android:layout_width="@dimen/margin_small_circle"
+                android:layout_height="@dimen/margin_small_circle"
+                android:background="@drawable/circle_white" />
+
+            <View
+                android:layout_margin="@dimen/padding_big"
+                android:layout_width="@dimen/margin_small_circle"
+                android:layout_height="@dimen/margin_small_circle"
+                android:background="@drawable/circle_white" />
+
+            <View
+                android:layout_margin="@dimen/padding_big"
+                android:layout_width="@dimen/margin_small_circle"
+                android:layout_height="@dimen/margin_small_circle"
+                android:background="@drawable/circle_white" />
+        </LinearLayout>
+
+        <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+            android:id="@+id/tvEnter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="@dimen/margin_enter"
+            android:alpha="0"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/enter"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_enter"
+            android:textStyle="bold"
+            tools:alpha="1" />
+
+    </FrameLayout>
+
+
+    <!--<LinearLayout
+        android:id="@+id/flSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        tools:visibility="visible">
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/padding_big"
+            android:layout_weight="0.6"
+            android:src="@drawable/icon_logo"
+            android:id="@+id/imageView2" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+    </LinearLayout>-->
+
+</android.support.design.widget.CoordinatorLayout>

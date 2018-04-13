@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black">
+
+    <FrameLayout
+        android:id="@+id/flControls"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_biggest">
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvAddElements"
+            style="@style/TextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingEnd="@dimen/margin_small"
+            android:paddingLeft="@dimen/padding_right"
+            android:paddingRight="@dimen/margin_small"
+            android:paddingStart="@dimen/margin_small"
+            android:paddingTop="@dimen/padding_bottom_header"
+            android:text="@string/add_elements"
+            android:textSize="@dimen/font_3"
+            app:fontId="8" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvClearAll"
+            style="@style/TextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingEnd="@dimen/margin_small"
+            android:paddingLeft="@dimen/margin_small"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingStart="@dimen/margin_small"
+            android:paddingTop="@dimen/padding_bottom_header"
+            android:text="@string/clear_all"
+            android:textSize="@dimen/font_3"
+            app:fontId="8" />
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerviewFlow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/flControls"
+        android:layout_marginBottom="@dimen/padding_big"
+        android:layout_marginTop="@dimen/padding_big"
+        android:visibility="invisible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/flControls"
+        android:layout_marginBottom="@dimen/padding_big"
+        android:layout_marginTop="@dimen/padding_big" />
+
+    <Button
+        android:id="@+id/btnFocus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:visibility="gone" />
+
+</RelativeLayout>

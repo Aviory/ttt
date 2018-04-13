@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ratio">xhdpi</string>
+
+    <!--Onboarding-->
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="padding_header">16dp</dimen>
+    <dimen name="margin_small_circle">7dp</dimen>
+    <dimen name="margin_bigger">14dp</dimen>
+    <dimen name="margin_bottom">32dp</dimen>
+    <dimen name="margin_enter">68dp</dimen>
+    <dimen name="font_enter">15sp</dimen>
+
+    <dimen name="font_10">18sp</dimen>
+</resources>

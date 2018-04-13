@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black"
+    android:clickable="true"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.Space
+        android:id="@+id/center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+    <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+        android:id="@+id/tv_first"
+        style="@style/TextButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/center"
+        android:layout_alignRight="@+id/center"
+        android:layout_marginTop="@dimen/padding_big"
+        android:text="@string/font"
+        android:textSize="@dimen/font_4" />
+
+    <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+        android:id="@+id/tv_second"
+        style="@style/TextButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_big"
+        android:layout_toEndOf="@+id/center"
+        android:layout_toRightOf="@+id/center"
+        android:text="@string/color"
+        android:textSize="@dimen/font_4" />
+
+    <FrameLayout
+        android:id="@+id/flForRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_above="@+id/flClear"
+        android:layout_below="@+id/tv_second" />
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/flClear"
+        android:layout_below="@+id/tv_second"
+        android:padding="@dimen/margin_big"/>
+
+    <FrameLayout
+        android:id="@+id/flClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/center"
+        android:paddingBottom="@dimen/margin_small">
+
+        <ImageButton
+            android:id="@+id/vClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?selectableItemBackground"
+            android:padding="@dimen/padding_medium"
+            android:src="@drawable/ic_cancel" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/center"
+        android:layout_toRightOf="@+id/center"
+        android:paddingBottom="@dimen/margin_small">
+
+        <ImageButton
+            android:id="@+id/vAccept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:padding="@dimen/padding_medium"
+            android:src="@drawable/ic_apply" />
+
+    </FrameLayout>
+
+</merge>

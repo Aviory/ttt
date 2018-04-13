@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black">
+
+
+
+    <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+        android:id="@+id/txt_cards"
+        style="@style/TextFontStyle"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/cards"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <com.llc111minutes.gameday.ui.widget.LatoMediumTextView
+        android:id="@+id/txt_match_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/match"
+        android:textColor="@color/red"
+        android:textSize="10sp"
+        android:visibility="invisible" />
+
+    <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+        android:id="@+id/txt_cards_eff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/cards"
+        android:textColor="@drawable/tab_text_selector"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <com.llc111minutes.gameday.ui.widget.LatoBoldTextView
+        android:id="@+id/txt_menu_item"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        tools:text="Templates1" />
+
+    <ImageView
+        android:id="@+id/img_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_settings" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/icon_logo" />
+
+    <ImageView
+        android:id="@+id/img_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="180dp"
+        android:background="?selectableItemBackground"
+        android:src="@drawable/icon_gallary" />
+
+    <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+        android:id="@+id/tvPhotoFromGallery"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="178dp"
+        android:layout_toRightOf="@id/img_gallery"
+        android:background="?selectableItemBackground"
+        android:text="@string/gallery"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/img_gallery"
+        android:layout_marginTop="384dp"
+        android:background="?selectableItemBackground"
+        android:src="@drawable/icon_photo" />
+
+    <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+        android:id="@+id/tvTakePhoto"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="382dp"
+        android:layout_toRightOf="@id/img_photo"
+        android:background="?selectableItemBackground"
+        android:text="@string/take_photo"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

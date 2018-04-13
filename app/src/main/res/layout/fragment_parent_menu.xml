@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black"
+    tools:context=".ui.activity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+            android:id="@+id/tv_brand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="3dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_7"
+            android:text="@string/gameday_hashtag" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="3dp"
+            android:src="@drawable/icon_logo"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/img_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_settingLeft"
+            android:layout_marginStart="@dimen/padding_settingLeft"
+            android:clickable="true"
+            android:focusable="false"
+            android:padding="@dimen/padding_setting"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            android:src="@drawable/icon_settings" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:orientation="vertical">
+
+            <android.support.v4.widget.Space
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:layout_weight="0.33" />
+
+            <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+                android:id="@+id/tvPhotoFromGallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_gallary"
+                android:drawablePadding="@dimen/margin_small"
+                android:drawableStart="@drawable/icon_gallary"
+                android:focusable="false"
+                android:text="@string/gallery"
+                android:textColor="@drawable/selector_red_color"
+                android:textSize="@dimen/font_5"
+                android:textStyle="bold" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:layout_weight="0.33" />
+
+            <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+                android:id="@+id/tvTakePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_photo"
+                android:drawablePadding="@dimen/margin_small"
+                android:drawableStart="@drawable/icon_photo"
+                android:focusable="false"
+                android:text="@string/take_photo"
+                android:textColor="@drawable/selector_red_color"
+                android:textSize="@dimen/font_5"
+                android:textStyle="bold" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:layout_weight="0.33" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

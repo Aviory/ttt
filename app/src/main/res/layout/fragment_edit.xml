@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.llc111minutes.gameday.ui.widget.owner.EditFlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editFlowLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/flTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvNew"
+            style="@style/TextFontStyle"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/cancel"
+            android:textColor="@drawable/selector_red_color"
+            app:fontId="8" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvMode"
+            style="@style/TextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            tools:text="@string/layout" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tvNext"
+            style="@style/TextFontStyle"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="@string/next"
+            android:textColor="@drawable/selector_red_color"
+            app:fontId="8" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flTop">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:clickable="false"
+            android:contentDescription="@string/full_image"
+            android:focusable="false"
+            android:scaleType="centerCrop"
+            tools:minHeight="200dp"
+            tools:minWidth="200dp" />
+
+        <com.llc111minutes.gameday.sticks.team.universal.sticker.ParentView
+            android:id="@+id/parentPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:focusable="false" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tv_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="@color/brand_background"
+            android:clickable="false"
+            android:focusable="false"
+            android:padding="@dimen/padding_large"
+            android:text="@string/gamedayapp_hashtag"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_3" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlChangeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/flContent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/flChangeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/selector"
+            tools:background="@color/grey">
+
+        </FrameLayout>
+
+        <com.llc111minutes.gameday.ui.widget.owner.SelectorOfThree
+            android:id="@+id/selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+    </RelativeLayout>
+
+</com.llc111minutes.gameday.ui.widget.owner.EditFlowLayout>

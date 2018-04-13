@@ -1,0 +1,36 @@
+{
+  "metainfo": {
+    "separator_title": {
+      "default_text": "VS",
+      "font": {
+        "color": {
+          "alpha": "1",
+          "blue": "255",
+          "green": "255",
+          "red": "255"
+        },
+        "name": "Lato-Black",
+        "size": 0.1
+      },
+      "x": 0.5,
+      "y": 0.5
+    },
+    "team1": {
+      "logo": {
+        "h": 0.2,
+        "w": 0.3,
+        "x": 0.25,
+        "y": 0.5
+      }
+    },
+    "team2": {
+      "logo": {
+        "h": 0.2,
+        "w": 0.3,
+        "x": 0.75,
+        "y": 0.5
+      }
+    }
+  },
+  "overlay_id": -1
+}

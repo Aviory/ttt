@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="View">
+        <attr name="android:background" />
+        <attr name="android:clickable" />
+        <attr name="android:contentDescription" />
+        <attr name="android:drawingCacheQuality" />
+        <attr name="android:duplicateParentState" />
+        <attr name="android:fadeScrollbars" />
+        <attr name="android:fadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+        <attr name="android:fitsSystemWindows" />
+        <attr name="android:focusable" />
+        <attr name="android:focusableInTouchMode" />
+        <attr name="android:hapticFeedbackEnabled" />
+        <attr name="android:id" />
+        <attr name="android:isScrollContainer" />
+        <attr name="android:keepScreenOn" />
+        <attr name="android:longClickable" />
+        <attr name="android:minHeight" />
+        <attr name="android:minWidth" />
+        <attr name="android:nextFocusDown" />
+        <attr name="android:nextFocusLeft" />
+        <attr name="android:nextFocusRight" />
+        <attr name="android:nextFocusUp" />
+        <attr name="android:onClick" />
+        <attr name="android:padding" />
+        <attr name="android:paddingBottom" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingTop" />
+        <attr name="android:saveEnabled" />
+        <attr name="android:scrollX" />
+        <attr name="android:scrollY" />
+        <attr name="android:scrollbarAlwaysDrawHorizontalTrack" />
+        <attr name="android:scrollbarAlwaysDrawVerticalTrack" />
+        <attr name="android:scrollbarDefaultDelayBeforeFade" />
+        <attr name="android:scrollbarFadeDuration" />
+    </declare-styleable>
+
+    <declare-styleable name="TintableImageView">
+        <attr name="tint" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="FontView">
+        <attr name="fontName" format="integer">
+            <enum name="Calibri" value="1" />
+            <enum name="CalibriBoldItalic" value="2" />
+            <enum name="CalibriBold" value="3" />
+        </attr>
+        <attr name="fontId" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float" />
+        <attr name="absoluteMaxValue" format="integer|float" />
+        <attr name="singleThumb" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaskedEditText">
+        <attr name="mask" format="string" />
+        <attr name="allowed_chars" format="string" />
+        <attr name="denied_chars" format="string" />
+        <attr name="char_representation" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSeekBar">
+        <attr name="anchor_width" format="dimension" />
+        <attr name="anchor_height" format="dimension" />
+        <attr name="anchor_color" format="color" />
+        <attr name="magnet_percent" format="integer" />
+        <attr name="CustomSeekBar_gray_percent" format="integer" />
+        <attr name="CustomSeekBar_red_percent" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SmallTouchView">
+        <attr name="square" format="boolean"/>
+    </declare-styleable>
+
+</resources>

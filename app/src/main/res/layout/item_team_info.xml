@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:clickable="true"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_small"
+        tool:text="@string/action_settings"
+        android:background="@color/transparent"
+        android:visibility="gone"/>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_header"
+        android:background="@color/transparent">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            app:layout_widthPercent="20%"
+            tool:src="@drawable/ic_add_logo" />
+
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+
+            android:id="@+id/tv_name_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_logo"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/img_logo"
+            android:layout_toRightOf="@+id/img_logo"
+            android:background="@color/transparent"
+            android:gravity="start|center"
+            android:paddingLeft="@dimen/margin_big"
+            android:paddingRight="@dimen/margin_big"
+            android:paddingStart="@dimen/margin_big"
+            android:textSize="@dimen/font_6"
+            app:fontId="7"
+            tool:text="Super-Puper TEAM" />
+    </android.support.percent.PercentRelativeLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

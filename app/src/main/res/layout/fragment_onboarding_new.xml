@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.Space
+        android:id="@+id/spaceOne"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"/>
+
+    <android.support.v4.widget.Space
+        android:id="@+id/spaceOneGone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:visibility="gone"/>
+
+    <com.llc111minutes.gameday.ui.widget.LatoMediumTextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/create"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_8" />
+
+    <android.support.v4.widget.Space
+        android:id="@+id/spaceTwoGone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:visibility="gone"/>
+
+    <android.support.v4.widget.Space
+        android:id="@+id/spaceTwo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:scaleX="1.1"
+        tools:src="@drawable/icon_device_first" />
+
+</LinearLayout>

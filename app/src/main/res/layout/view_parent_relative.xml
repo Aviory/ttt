@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1200dp"
+    android:layout_height="1200dp"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/vTmp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="@dimen/action_button_size"
+        android:layout_marginStart="@dimen/action_button_size"
+        android:layout_marginTop="@dimen/action_button_size"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="@color/colorAccent" />
+
+    <View
+        android:id="@+id/vDelete"
+        android:layout_width="@dimen/action_button_size"
+        android:layout_height="@dimen/action_button_size"
+        android:layout_alignLeft="@+id/vTmp"
+        android:layout_alignStart="@+id/vTmp"
+        android:layout_alignTop="@+id/vTmp"
+        android:layout_marginLeft="@dimen/action_button_half_minus"
+        android:layout_marginStart="@dimen/action_button_half_minus"
+        android:layout_marginTop="@dimen/action_button_half_minus"
+        android:background="@drawable/ic_del_view" />
+
+    <View
+        android:id="@+id/vMove"
+        android:layout_width="@dimen/action_button_size"
+        android:layout_height="@dimen/action_button_size"
+        android:layout_alignBottom="@+id/vTmp"
+        android:layout_alignEnd="@+id/vTmp"
+        android:layout_alignRight="@+id/vTmp"
+        android:layout_marginBottom="@dimen/action_button_half_minus"
+        android:layout_marginEnd="@dimen/action_button_half_minus"
+        android:layout_marginRight="@dimen/action_button_half_minus"
+        android:background="@drawable/circle_white" />
+
+    <View
+        android:id="@+id/vAdd"
+        android:layout_width="@dimen/action_button_size"
+        android:layout_height="@dimen/action_button_size"
+        android:layout_alignEnd="@+id/vTmp"
+        android:layout_alignRight="@+id/vTmp"
+        android:layout_alignTop="@+id/vTmp"
+        android:layout_marginEnd="@dimen/action_button_half_minus"
+        android:layout_marginRight="@dimen/action_button_half_minus"
+        android:layout_marginTop="@dimen/action_button_half_minus"
+        android:background="@drawable/ic_add_logo" />
+
+</merge>

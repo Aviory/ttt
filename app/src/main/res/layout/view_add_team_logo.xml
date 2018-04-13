@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:clickable="true"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:paddingEnd="4dp"
+    android:paddingStart="4dp"
+    android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <com.llc111minutes.gameday.sticks.team.universal.sticker.SmallTouchView
+                android:id="@+id/smallOne"
+                style="@style/small_touch_view"
+                app:square="true" />
+
+            <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+                style="@style/text_small_touch_view"
+                android:text="@string/text_one_logo" />
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/margin_biggest"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.llc111minutes.gameday.sticks.team.universal.sticker.SmallTouchView
+                android:id="@+id/smallTwo"
+                style="@style/small_touch_view"
+                app:square="true" />
+
+            <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+                style="@style/text_small_touch_view"
+                android:text="@string/text_two_logos" />
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/margin_biggest"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.llc111minutes.gameday.sticks.team.universal.sticker.SmallTouchView
+                android:id="@+id/smallThree"
+                style="@style/small_touch_view"
+                app:square="true" />
+
+            <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+                style="@style/text_small_touch_view"
+                android:text="@string/text_two_logos_vs" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</HorizontalScrollView>

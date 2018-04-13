@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_weight="0.7"
+        android:padding="@dimen/padding_medium">
+
+        <ImageView
+            android:id="@+id/imgSource"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:clickable="false"
+            android:contentDescription="@string/image_template"
+            android:focusable="false"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            tools:background="@drawable/shape_red_border"
+            tools:src="@drawable/two_logo" />
+
+        <com.llc111minutes.gameday.sticks.team.universal.sticker.SmallTouchView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="2dp"
+            android:clickable="false"
+            android:focusable="false"
+            app:square="true"
+            tools:background="@drawable/shape_red_border" />
+
+        <RelativeLayout
+            android:id="@+id/flBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/preview"
+            android:layout_alignEnd="@+id/preview"
+            android:layout_alignLeft="@+id/preview"
+            android:layout_alignRight="@+id/preview"
+            android:layout_alignStart="@+id/preview"
+            android:layout_alignTop="@+id/preview"
+            android:layout_centerInParent="true"
+            android:alpha="0.9"
+            android:background="@color/color_black"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/back_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="@string/back"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_10" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_3"
+        app:fontId="7"
+        tools:text="Pixellate" />
+
+</LinearLayout>

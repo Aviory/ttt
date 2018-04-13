@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black"
+    tools:context=".ui.activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_big"
+        android:layout_marginTop="@dimen/margin_big">
+
+        <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+            android:id="@+id/tv_brand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="3dp"
+            android:text="@string/terms_and_conditions"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_6" />
+
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="false"
+            android:paddingTop="4dp"
+            android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tv_cancel"
+            style="@style/TextFontStyle"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/tv_brand_name"
+            android:layout_alignParentTop="true"
+            android:layout_margin="0dp"
+            android:layout_toEndOf="@+id/img_back"
+            android:layout_toLeftOf="@+id/tv_brand_name"
+            android:layout_toRightOf="@+id/img_back"
+            android:layout_toStartOf="@id/tv_brand_name"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="bottom"
+            android:text="@string/cancel"
+            android:textColor="@drawable/selector_red_color"
+            app:fontId="7" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_header"
+        android:background="@color/white">
+
+        <WebView
+            android:id="@id/tv_big_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            />
+    </ScrollView>
+
+</RelativeLayout>

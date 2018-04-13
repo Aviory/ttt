@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_weight="0.7"
+        android:padding="@dimen/padding_medium">
+
+
+        <ImageView
+            android:id="@+id/imgSource"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/image_template"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            tools:background="@drawable/shape_red_border"
+            tools:src="@drawable/two_logo" />
+
+        <ImageView
+            android:id="@+id/imgView_template_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/image_template"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            tools:background="@drawable/shape_red_border"
+            tools:src="@drawable/two_logo" />
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@+id/imgView_template_preview"
+            android:layout_alignLeft="@+id/imgView_template_preview"
+            android:layout_alignRight="@+id/imgView_template_preview"
+            android:layout_alignBottom="@+id/imgView_template_preview"
+            android:layout_alignStart="@+id/imgView_template_preview"
+            android:layout_alignTop="@+id/imgView_template_preview"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:background="@color/color_black"
+            android:text="@string/back"
+            android:textSize="@dimen/font_10"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_3"
+        app:fontId="7"
+        tools:text="Pixellate" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black">
+
+
+    <com.llc111minutes.gameday.ui.widget.LatoBlackTextView
+        android:id="@+id/tv_brand_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="3dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_7"
+        android:text="@string/gameday_hashtag" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iv_icon_connection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_biggest"
+            android:src="@drawable/wifi_logo" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tv_big_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_icon_connection"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/margin_medium"
+            android:text="@string/error_connection"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_11" />
+
+        <com.llc111minutes.gameday.ui.widget.owner.CustomFontTextView
+            android:id="@+id/tv_small_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/tv_big_message"
+            android:layout_alignLeft="@id/tv_big_message"
+            android:layout_alignRight="@id/tv_big_message"
+            android:layout_alignStart="@id/tv_big_message"
+            android:layout_below="@id/tv_big_message"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/margin_medium"
+            android:gravity="center"
+            android:text="@string/dialog_alert_error_connection"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_5" />
+
+        <Button
+            android:id="@+id/bt_try_again"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/action_button_size"
+            android:layout_below="@id/tv_small_message"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_biggest"
+            android:background="@drawable/button_background"
+            android:paddingEnd="24dp"
+            android:paddingStart="24dp"
+            android:text="@string/try_again"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>
